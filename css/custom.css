@@ -9,12 +9,28 @@ body {
   margin: 3em 0 2em;
 }
 
+.page-header-sm {
+  text-align: center;
+  margin: 3em 0 0;
+}
+
+.left {
+  text-align: left;
+}
+
 .action {
   text-align: center;
+  margin: 0 0 2em 0;
 }
 
 .header-logo {
   width: 360px;
+  display: block;
+  margin: 1.5em auto;
+}
+
+.header-logo-sm {
+  width: 80%;
   display: block;
   margin: 1.5em auto;
 }
@@ -25,6 +41,10 @@ body {
 
 .buffer-sm {
   margin: 3em 0 0 0;
+}
+
+.buffer-xs {
+  margin: 1em 0 0 0;
 }
 
 .btn-primary:not(.btn-link):not(.btn-flat) {

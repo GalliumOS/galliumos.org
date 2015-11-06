@@ -36,40 +36,36 @@
   <body class="animsition">
     <!-- Your site -->
     <div class="container">
-      <div class="page-header">
-        <img src="img/galliumos-logo.svg" class="header-logo hidden-xs">
-        <img src="img/galliumos-logo.svg" class="header-logo-sm visible-xs">
-        <h4>A fast and lightweight Linux distro for ChromeOS devices.</h4>
+      <div class="page-header-sm left">
         <div class="row">
-          <div class="col-md-12 buffer-sm">
-            <img class="hidden-xs" src="img/laptop-lg.png">
-            <img class="visible-xs" src="img/laptop-lg.png" width="100%">
+          <div class="col-md-12">
+              <a href="index.html" class="btn btn-raised btn-default">Back</a>
           </div>
         </div>
       </div>
       <div class="page-body">
-        <div class="col-md-12 action">
-          <button class="btn btn-lg btn-primary">Beta 1 Coming Soon!<div class="ripple-wrapper"></div></button>
+        <div class="row">
+          <div class="col-md-12 buffer-xs">
+            <h1>Download GalliumOS</h1>
+          </div>
         </div>
-        <div class="col-md-3 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="1000">
-          <span class="glyphicon glyphicon-lg glyphicon-flash" aria-hidden="true"></span><br>
-          <h3>Performance</h3>
-          <p>Optimizations that eliminate system stalls and improve overall responsiveness.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <p>GalliumOS comes in 5 different flavors, each with a separate ISO file. Please choose the correct one below. For instructions on how to put the ISO on a usb stick, see the wiki.</p>
+          </div>
         </div>
-        <div class="col-md-3 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000">
-          <span class="glyphicon glyphicon-lg glyphicon-hand-up" aria-hidden="true"></span><br>
-          <h3>Touchpad</h3>
-          <p>Integrated ChromeOS mouse driver provides a touchpad experience similar to ChromeOS.</p>
-        </div>
-        <div class="col-md-3 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000">
-          <span><img src="img/xubuntu-icon.svg" class="xubuntu-icon"></span><br>
-          <h3>Xubuntu</h3>
-          <p>Built on top of Xubuntu to provide a lightweight and fully functional desktop.</p>
-        </div>
-        <div class="col-md-3 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000">
-          <span class="glyphicon glyphicon-lg glyphicon-certificate" aria-hidden="true"></span><br>
-          <h3>Bug Fixes</h3>
-          <p>Fixes for issues that affect ChromeOS devices and are not found in standard distros.</p>
+        <div class="row">
+          <div class="col-md-6 buffer-xs">
+            <h3>For your Chromebook</h3>
+            <button class="btn btn-primary">Broadwell<div class="ripple-wrapper"></div></button>
+            <button class="btn btn-primary">Hasswell<div class="ripple-wrapper"></div></button>
+            <button class="btn btn-primary">Sandy/Ivy<div class="ripple-wrapper"></div></button>
+          </div>
+          <div class="col-md-6 buffer-xs">
+            <h3>For your Chromebox</h3>
+            <button class="btn btn-primary">Broadwell<div class="ripple-wrapper"></div></button>
+            <button class="btn btn-primary">Hasswell<div class="ripple-wrapper"></div></button>
+          </div>
         </div>
       </div>
     </div>
@@ -91,7 +87,7 @@
       $(".animsition").animsition({
         inClass: 'fade-in',
         outClass: 'fade-out',
-        inDuration: 2000,
+        inDuration: 1200,
         outDuration: 1000,
         linkElement: '.animsition-link',
         // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
