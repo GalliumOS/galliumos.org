@@ -1,0 +1,62 @@
+body {
+  background-color: #efefef;
+  color: #1a2242;
+  font-size: 16px;
+}
+
+.page-header {
+  text-align: center;
+  margin: 3em 0 2em;
+}
+
+.action {
+  text-align: center;
+}
+
+.header-logo {
+  width: 360px;
+  display: block;
+  margin: 1.5em auto;
+}
+
+.buffer {
+  margin: 5em 0 0 0;
+}
+
+.buffer-sm {
+  margin: 3em 0 0 0;
+}
+
+.btn-primary:not(.btn-link):not(.btn-flat) {
+  background-color: #304af0;
+}
+
+.btn-primary:hover:not(.btn-link):not(.btn-flat) {
+  background-color: #4c65ff
+}
+
+.glyphicon {
+  font-size: 2.25em;
+  color: #304af0;
+}
+
+.icon {
+  text-align: center;
+}
+
+.xubuntu-icon {
+  height: 36px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin: .5em 0;
+}
+
+.footer {
+  font-size: .9em;
+  margin: 5em 0 0 0;
+  text-align: center;
+  background-color: #1a2242;
+  color: #efefef;
+  padding: 1.5em 0 .8em;
+}

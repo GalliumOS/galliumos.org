@@ -1,0 +1,210 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    background-image: url("../imgs/logo-brand.png");
+    width: 32px;
+    height: 32px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
+.navbar .container {
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #8e8e8e
+}
+
+.navbar-default,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+    background-color: #fff;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #fff;
+    color: #8e8e8e;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2f7aa2;
+}
+
+.galliumos-main {
+    margin-top: 60px;
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -48px;
+    /* Pad bottom by footer height */
+    padding: 0 0 48px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.top {
+    margin-top: 60px;
+}
+
+.content h3 {
+    color: #2e79a1;
+}
+.title-row {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.title-row img {
+    width: 80px;
+    height: 80px;
+}
+
+.title-row .name {
+    font-size: 50px;
+    color: #8e8e8e;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-row .caption {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+.laptop-row {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.laptop-row .btn {
+    margin-top: 80px;
+}
+
+.laptop-img {
+    width: 600px;
+    height: 352px;
+    background-image: url("../imgs/laptop-lg.png");
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 820px) {
+    .laptop-img {
+	width: 400px;
+	height: 235px;
+	background-image: url("../imgs/laptop-md.png");
+	margin-left: auto;
+	margin-right: auto;
+    }
+}
+
+@media (max-width: 820px) {
+    .laptop-img {
+	width: 400px;
+	height: 235px;
+	background-image: url("../imgs/laptop-md.png");
+	margin-left: auto;
+	margin-right: auto;
+    }
+}
+
+@media (max-width: 470px) {
+    .laptop-img {
+	width: 200px;
+	height: 117px;
+	background-image: url("../imgs/laptop-sm.png");
+	margin-left: auto;
+	margin-right: auto;
+    }
+}
+
+.why-row {
+    margin-top: 44px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.why-row i {
+    margin-top: 40px;
+    color: #2e79a1;
+}
+
+.why-row .xubuntu {
+    margin-top: 40px;
+    background-image: url("../imgs/xubuntu_logo.png");
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+}
+
+.why-row .title {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.why-row .desc {
+    font-size: 14px;
+    max-width: 220px;
+    display: inline-block;
+}
+
+.footer {
+    background-color: #2e79a1;
+    height: 48px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer .text {
+    color: #fff;
+    padding-top: 14px;
+}
+
+.btn {
+    background-image: none;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #2e79a1;
+    border-color: #2e79a1;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #6cb6dd;
+    border-color: #6cb6dd;
+}
+
+.download-btn {
+    margin: 20px 0px;
+    width: 200px;    
+}
+
+.download-btn a {
+    width: 200px;
+}
