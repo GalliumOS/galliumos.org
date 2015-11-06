@@ -60,3 +60,7 @@ body {
   color: #efefef;
   padding: 1.5em 0 .8em;
 }
+
+.footer a, .footer a:hover, .footer a:focus {
+  color: #efefef;
+}
