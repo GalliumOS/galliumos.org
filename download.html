@@ -36,16 +36,9 @@
   <body class="animsition">
     <!-- Your site -->
     <div class="container">
-      <div class="page-header-sm left">
-        <div class="row">
-          <div class="col-md-12">
-              <a href="index.html" class="btn btn-raised btn-default">Back</a>
-          </div>
-        </div>
-      </div>
       <div class="page-body">
         <div class="row">
-          <div class="col-md-12 buffer-xs">
+          <div class="col-md-12 buffer-sm">
             <h1>Download GalliumOS</h1>
           </div>
         </div>
@@ -65,6 +58,60 @@
             <h3>For your Chromebox</h3>
             <button class="btn btn-primary">Broadwell<div class="ripple-wrapper"></div></button>
             <button class="btn btn-primary">Hasswell<div class="ripple-wrapper"></div></button>
+          </div>
+        </div>
+      </div>
+      <div class="page-body">
+        <div class="row">
+          <div class="col-md-12 buffer-sm">
+            <h1>Install GalliumOS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>You can install GalliumOS in two different ways. Both methods require Developer Mode enabled on your ChromeOS device.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default buffer-xs">
+              <div class="panel-heading">From USB or SD media</div>
+              <div class="panel-body">
+                Installing from USB or SD media allows you to use your entire SSD for GalliumOS. <strong>TODO</strong>: flesh this out! Depending on your Chromebook model, you might need to flash your firmware to enable Legacy Boot. ROMs and instructions at <a href="https://johnlewis.ie/custom-chromebook-firmware/rom-download/" target="_blank">johnlewis.ie</a>.<br><br>
+                <ol>
+                  <li>Enable <a href="http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices" target="_blank">Developer Mode</a></li>
+                  <li>Download the newest ISO for your device</li>
+                  <li>Write ISO to your removable USB or SD media</li>
+                  <li>Insert USB or SD media into Chromebook</li>
+                  <li>Reboot Chromebook and press <code>CTRL+L</code> at the white "OS verification is OFF" screen</li>
+                  <li>Follow GalliumOS installer</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default buffer-xs">
+              <div class="panel-heading">From the command line</div>
+              <div class="panel-body">
+                Installing from the command line via <a href="https://chrx.org/">chrx</a> will give you a dual-boot machine, GalliumOS and ChromeOS.Note that chrx only works with certain Chromebook models, so be sure to review the <a href="https://chrx.org/#compatibility">hardware compatibility list</a>.<br><br>
+                <ol>
+                  <li>Enable <a href="http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices" target="_blank">Developer Mode</a></li>
+                  <li>Reboot Chromebook and press <code>CTRL+D</code> at the white "OS verification is OFF" screen</li>
+                  <li>Configure Wi-Fi if necessary</li>
+                  <li>Press <code>CTRL+ALT+F2</code> to get a virtual terminal, then log in as user <code>chronos</code></li>
+                  <li>Run chrx with <code>curl -O https://chrx.org/go && sh go -d galliumos</code>(see <a href="https://chrx.org/#options">chrx</a> for more options)</li>
+                  <li>Follow on-screen instructions to repartition your SSD and to install GalliumOS</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-header-sm left">
+          <div class="row">
+            <div class="col-md-12">
+                <a href="index.html" class="btn btn-raised btn-default">Back</a>
+            </div>
           </div>
         </div>
       </div>

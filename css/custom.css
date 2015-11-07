@@ -72,6 +72,10 @@ body {
   margin: .5em 0;
 }
 
+h4 {
+  line-height: 1.4em;
+}
+
 .footer {
   font-size: .9em;
   margin: 5em 0 0 0;
@@ -79,8 +83,26 @@ body {
   background-color: #1a2242;
   color: #efefef;
   padding: 1.5em 0 .8em;
+  line-height: 1.7em;
 }
 
 .footer a, .footer a:hover, .footer a:focus {
   color: #efefef;
+}
+
+[class^=mdi-], [class*=mdi-] {
+  display: block;
+  font: normal normal normal 32px/1 'Material-Design-Icons';  
+}
+
+a, a:hover, a:focus {
+  color: #337ab7;
+}
+
+code {
+    padding: 1px 3px;
+    font-size: 90%;
+    color: #337ab7;
+    background-color: #dedee6;
+    border-radius: 4px;
 }
