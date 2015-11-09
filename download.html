@@ -1,40 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <html lang="en">
-    <title>GalliumOS – A fast and lightweight Linux distro for ChromeOS devices</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
-    <link href="css/roboto.min.css" rel="stylesheet">
-    <link href="css/material.min.css" rel="stylesheet">
-    <link href="css/ripples.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <!-- animsition.css -->
-    <link href="css/animsition.min.css" rel="stylesheet">
+<!--#include file="includes/header.html" -->
+<script>document.title = "GalliumOS - Downloads";</script>
 
-    <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
-    <link rel="manifest" href="img/icon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
-  </head>
-  <body class="animsition">
-    <!-- Your site -->
     <div class="container">
       <div class="page-body">
         <div class="row">
@@ -51,13 +17,13 @@
           <div class="col-md-6 buffer-xs">
             <h3>For your Chromebook</h3>
             <button class="btn btn-primary">Broadwell<div class="ripple-wrapper"></div></button>
-            <button class="btn btn-primary">Hasswell<div class="ripple-wrapper"></div></button>
-            <button class="btn btn-primary">Sandy/Ivy<div class="ripple-wrapper"></div></button>
+            <button class="btn btn-primary">Haswell<div class="ripple-wrapper"></div></button>
+            <button class="btn btn-primary">Sandy Bridge / Ivy Bridge<div class="ripple-wrapper"></div></button>
           </div>
           <div class="col-md-6 buffer-xs">
             <h3>For your Chromebox</h3>
             <button class="btn btn-primary">Broadwell<div class="ripple-wrapper"></div></button>
-            <button class="btn btn-primary">Hasswell<div class="ripple-wrapper"></div></button>
+            <button class="btn btn-primary">Haswell<div class="ripple-wrapper"></div></button>
           </div>
         </div>
       </div>
@@ -116,45 +82,5 @@
         </div>
       </div>
     </div>
-    <footer class="container-fluid footer">
-      <p>Copyright © 2015 the GalliumOS project | #galliumos @ freenode.net | contact@galliumos.org | <a href="https://www.reddit.com/r/galliumos/">/r/galliumos</a></p>
-    </footer>
-    <!-- Your site ends -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="js/ripples.min.js"></script>
-    <script src="js/material.min.js"></script>
-    <!-- animsition.js -->
-    <script src="js/animsition.min.js"></script>
-    <script>
-    $(document).ready(function() {
-    // This command is used to initialize some elements and make them work properly
-      $.material.init();
-      $(document).ready(function() {
-      $(".animsition").animsition({
-        inClass: 'fade-in',
-        outClass: 'fade-out',
-        inDuration: 1200,
-        outDuration: 1000,
-        linkElement: '.animsition-link',
-        // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
-        loading: true,
-        loadingParentElement: 'body', //animsition wrapper element
-        loadingClass: 'animsition-loading',
-        loadingInner: '', // e.g '<img src="loading.svg" />'
-        timeout: false,
-        timeoutCountdown: 5000,
-        onLoadEvent: true,
-        browser: [ 'animation-duration', '-webkit-animation-duration'],
-        // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-        // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-        overlay : false,
-        overlayClass : 'animsition-overlay-slide',
-        overlayParentElement : 'body',
-        transition: function(url){ window.location.href = url; }
-      });
-    });
-    });
-    </script>
-  </body>
-</html>
+
+<!--#include file="includes/footer.html" -->
