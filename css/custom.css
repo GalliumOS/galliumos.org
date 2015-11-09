@@ -1,6 +1,6 @@
 body {
   background-color: #efefef;
-  color: #1a2242;
+  color: #343434;
   font-size: 16px;
 }
 
@@ -24,9 +24,9 @@ body {
 }
 
 .header-logo {
-  width: 360px;
+  width: 336px;
   display: block;
-  margin: 1.5em auto;
+  margin: 1.5em auto 1.25em;
 }
 
 .header-logo-sm {
@@ -48,7 +48,7 @@ body {
 }
 
 .btn-primary:not(.btn-link):not(.btn-flat) {
-  background-color: #304af0;
+  background-color: #2f7aa2;
 }
 
 .btn-primary:hover:not(.btn-link):not(.btn-flat) {
@@ -57,7 +57,7 @@ body {
 
 .glyphicon {
   font-size: 2.25em;
-  color: #304af0;
+  color: #2f7aa2;
 }
 
 .icon {
@@ -80,7 +80,7 @@ h4 {
   font-size: .9em;
   margin: 5em 0 0 0;
   text-align: center;
-  background-color: #1a2242;
+  background-color: #2f7aa2;
   color: #efefef;
   padding: 1.5em 0 .8em;
   line-height: 1.7em;
