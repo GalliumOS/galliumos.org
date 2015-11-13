@@ -1,6 +1,12 @@
 @font-face {
   font-family: 'RobotoDraft';
   font-style: normal;
+  font-weight: 300;
+  src: local('RobotoDraft Light'), local('RobotoDraft-Light'), local('Roboto-Light'), url(../fonts/RobotoDraftLight.woff2) format('woff2'), url(../fonts/RobotoDraftLight.woff) format('woff');
+}
+@font-face {
+  font-family: 'RobotoDraft';
+  font-style: normal;
   font-weight: 400;
   src: local('RobotoDraft'), local('RobotoDraft-Regular'), local('Roboto-Regular'), url(../fonts/RobotoDraftRegular.woff2) format('woff2'), url(../fonts/RobotoDraftRegular.woff) format('woff');
 }
