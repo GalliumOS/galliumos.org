@@ -4,14 +4,18 @@ body {
   font-size: 16px;
 }
 
+.page-body {
+    margin-top: 24px;
+}
+
 .page-header {
   text-align: center;
-  margin: 3em 0 2em;
+  margin: 4em 0 2em;
 }
 
 .page-header-sm {
   text-align: center;
-  margin: 3em 0 0;
+  margin: 4em 0 0;
 }
 
 .page-header h4 {
@@ -58,6 +62,10 @@ body {
 
 .btn-primary:hover:not(.btn-link):not(.btn-flat) {
     background-color: #6cb5dd;
+}
+
+.btn {
+    text-transform: none;
 }
 
 .glyphicon {
@@ -116,7 +124,7 @@ code {
     background-image: url("../img/gallium-icon-brand.png");
     width: 32px;
     height: 32px;
-    margin-top: 14px;
+    margin-top: 7px;
     margin-right: 8px;
 }
 
