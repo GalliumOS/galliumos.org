@@ -157,6 +157,11 @@ code {
     background-color: #fff;
 }
 
+.navbar .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
     color: #2f7aa2;
 }
