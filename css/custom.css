@@ -129,7 +129,7 @@ code {
 }
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 0px;
+    margin-left: 2px;
 }
 
 .navbar .container {
@@ -151,12 +151,6 @@ code {
     margin-bottom: 0px;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    background-color: #fff;
-}
-
 .navbar .navbar-nav>li>a {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -164,14 +158,6 @@ code {
 
 .navbar-default .navbar-nav>li>a:hover {
     color: #2f7aa2;
-}
-
-.navbar-collapse.collapse {
-    display: block!important;
-}
-
-.navbar-nav>li, .navbar-nav {
-    float: left !important;
 }
 
 .navbar-nav.navbar-right:last-child {
