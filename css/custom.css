@@ -156,6 +156,10 @@ code {
     padding-bottom: 15px;
 }
 
+.navbar-collapse {
+    border-bottom: 1px solid transparent;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
     color: #2f7aa2;
 }
