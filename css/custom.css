@@ -175,3 +175,7 @@ code {
 ul.nav.navbar-nav {
     margin: 0px 0px;
 }
+
+div.container {
+    width: 770px;
+}
