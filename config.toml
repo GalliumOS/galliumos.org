@@ -1,0 +1,96 @@
+baseURL = "https://galliumos.org/"
+languageCode = "en-us"
+title = "GalliumOS"
+
+defaultContentLanguage = "en"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "loveit"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+  
+  defaultTheme = "light"
+  
+  gitRepo = "https://github.com/galliumos/galliumos.org"
+  
+  dateFormat = "January 02, 2006"
+  
+  [params.app]
+    title = "GalliumOS"
+    noFavicon = true
+    
+  [params.header]
+    [params.header.title]
+      logo = "/svg/fulllogo-blue.svg"
+      name = ""
+      pre = ""
+      post = ""
+      typeit = false
+      
+  [params.footer]
+    enable = true
+    custom = '&copy; 2015-2020 GalliumOS Project<style>#header-desktop .header-wrapper{padding:0 calc(calc(100% - 1200px)/2);}#header-desktop .header-title{margin-left:16px;}.footer-container>div:last-child{display:none;}footer{height:1rem;padding:0.5rem 0;margin-top:50px}.page.single{width:100%;}</style>'
+    hugo = false
+    copyright = false
+    anchor = true
+    since = 2015
+    icp = ""
+    license = ''
+
+[menu]
+  [[menu.main]]
+    identifier = "news"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "News"
+    url = "https://wiki.galliumos.org/News"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "download"
+    pre = ""
+    post = ""
+    name = "Download"
+    url = "/download"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "donate"
+    pre = ""
+    post = ""
+    name = "Donate"
+    url = "/donate"
+    title = ""
+    weight = 3
+  [[menu.main]]
+    identifier = "docs"
+    pre = ""
+    post = ""
+    name = "Docs"
+    url = "https://wiki.galliumos.org/"
+    title = ""
+    weight = 4
+  [[menu.main]]
+    identifier = "community"
+    pre = ""
+    post = ""
+    name = "Community"
+    url = "community"
+    title = ""
+    weight = 5
+  [[menu.main]]
+    identifier = "media"
+    pre = ""
+    post = ""
+    name = "Media"
+    url = "https://wiki.galliumos.org/Media"
+    title = ""
+    weight = 5
